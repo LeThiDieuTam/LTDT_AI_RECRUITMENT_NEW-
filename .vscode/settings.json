@@ -1,0 +1,12 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "python-envs.pythonProjects": [
+        {
+            "path": "ai-service/matching_service.py",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}

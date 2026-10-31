@@ -1,0 +1,459 @@
+[ERROR] COMPILATION ERROR : 
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/controller/JobController.java:[5,39] cannot access com.recruitment.backend.service.JobService
+  bad source file: C:\xampp\htdocs\AI-Recruitment-System\backend\src\main\java\com\recruitment\backend\service\JobService.java
+    file does not contain class com.recruitment.backend.service.JobService
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/controller/JobController.java:[16,19] cannot find symbol
+  symbol:   class JobService
+  location: class com.recruitment.backend.controller.JobController
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[3,35] cannot find symbol
+  symbol:   class LoginRequest
+  location: package com.recruitment.backend.dto
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[4,35] cannot find symbol
+  symbol:   class RegisterRequest
+  location: package com.recruitment.backend.dto
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[9,27] cannot find symbol
+  symbol:   class RegisterRequest
+  location: interface com.recruitment.backend.service.UserService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[11,18] cannot find symbol
+  symbol:   class LoginRequest
+  location: interface com.recruitment.backend.service.UserService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[16,40] cannot find symbol
+  symbol: class JobService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[86,25] method register(com.recruitment.backend.dto.request.RegisterRequest) is already defined in class com.recruitment.backend.service.impl.UserServiceImpl
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[28,48] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[32,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[33,34] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[34,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[35,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[36,31] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[37,33] cannot find symbol
+  symbol:   method getAddress()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[44,53] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[46,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.AuthResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[48,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[49,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[57,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[62,24] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[63,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[68,53] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[70,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.AuthResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[72,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[73,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[87,24] cannot find symbol
+  symbol:   method getOldPassword()
+  location: variable request of type com.recruitment.backend.dto.request.ChangePasswordRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[88,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[90,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.ApiResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[97,47] cannot find symbol
+  symbol:   method getNewPassword()
+  location: variable request of type com.recruitment.backend.dto.request.ChangePasswordRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[102,27] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.ApiResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[20,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[23,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[24,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[25,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[26,33] cannot find symbol
+  symbol:   method getCompany()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[27,34] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[28,32] cannot find symbol
+  symbol:   method getSalary()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[29,36] cannot find symbol
+  symbol:   method getExperience()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[30,40] cannot find symbol
+  symbol:   method getEmploymentType()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[39,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[44,29] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[45,35] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[46,31] cannot find symbol
+  symbol:   method getCompany()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[47,32] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[48,30] cannot find symbol
+  symbol:   method getSalary()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[49,34] cannot find symbol
+  symbol:   method getExperience()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[50,38] cannot find symbol
+  symbol:   method getEmploymentType()
+  location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[57,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[62,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[67,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[78,27] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.JobResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[79,24] cannot find symbol
+  symbol:   method getId()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[80,27] cannot find symbol
+  symbol:   method getTitle()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[81,33] cannot find symbol
+  symbol:   method getDescription()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[82,29] cannot find symbol
+  symbol:   method getCompany()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[83,30] cannot find symbol
+  symbol:   method getLocation()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[84,28] cannot find symbol
+  symbol:   method getSalary()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[85,32] cannot find symbol
+  symbol:   method getExperience()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[86,36] cannot find symbol
+  symbol:   method getEmploymentType()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[87,31] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[35,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[39,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[40,34] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[41,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[42,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[43,31] cannot find symbol
+  symbol:   method getPhone()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[44,33] cannot find symbol
+  symbol:   method getAddress()
+  location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[51,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.recruitment.backend.dto.response.UserResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[52,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[53,31] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[54,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[55,28] cannot find symbol
+  symbol:   method getPhone()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[56,30] cannot find symbol
+  symbol:   method getAddress()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[57,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[58,30] cannot find symbol
+  symbol:   method isEnabled()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[65,69] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[75,45] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[75,65] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.recruitment.backend.entity.User
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/controller/JobController.java:[5,39] cannot access com.recruitment.backend.service.JobService
+[ERROR]   bad source file: C:\xampp\htdocs\AI-Recruitment-System\backend\src\main\java\com\recruitment\backend\service\JobService.java
+[ERROR]     file does not contain class com.recruitment.backend.service.JobService
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/controller/JobController.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class JobService
+[ERROR]   location: class com.recruitment.backend.controller.JobController
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[3,35] cannot find symbol
+[ERROR]   symbol:   class LoginRequest
+[ERROR]   location: package com.recruitment.backend.dto
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[4,35] cannot find symbol
+[ERROR]   symbol:   class RegisterRequest
+[ERROR]   location: package com.recruitment.backend.dto
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[9,27] cannot find symbol
+[ERROR]   symbol:   class RegisterRequest
+[ERROR]   location: interface com.recruitment.backend.service.UserService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/UserService.java:[11,18] cannot find symbol
+[ERROR]   symbol:   class LoginRequest
+[ERROR]   location: interface com.recruitment.backend.service.UserService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[16,40] cannot find symbol
+[ERROR]   symbol: class JobService
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[86,25] method register(com.recruitment.backend.dto.request.RegisterRequest) is already defined in class com.recruitment.backend.service.impl.UserServiceImpl
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[28,48] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[32,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[33,34] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[34,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[35,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[36,31] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[37,33] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[44,53] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[46,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.AuthResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[48,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[49,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[57,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[62,24] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[63,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[68,53] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[70,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.AuthResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[72,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[73,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[87,24] cannot find symbol
+[ERROR]   symbol:   method getOldPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.ChangePasswordRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[88,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[90,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.ApiResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[97,47] cannot find symbol
+[ERROR]   symbol:   method getNewPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.ChangePasswordRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/auth/AuthServiceImpl.java:[102,27] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.ApiResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[20,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[23,22] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[24,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[25,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[26,33] cannot find symbol
+[ERROR]   symbol:   method getCompany()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[27,34] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[28,32] cannot find symbol
+[ERROR]   symbol:   method getSalary()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[29,36] cannot find symbol
+[ERROR]   symbol:   method getExperience()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[30,40] cannot find symbol
+[ERROR]   symbol:   method getEmploymentType()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[39,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[44,29] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[45,35] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[46,31] cannot find symbol
+[ERROR]   symbol:   method getCompany()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[47,32] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[48,30] cannot find symbol
+[ERROR]   symbol:   method getSalary()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[49,34] cannot find symbol
+[ERROR]   symbol:   method getExperience()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[50,38] cannot find symbol
+[ERROR]   symbol:   method getEmploymentType()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.JobRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[57,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[62,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[67,5] method does not override or implement a method from a supertype
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[78,27] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.JobResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[79,24] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[80,27] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[81,33] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[82,29] cannot find symbol
+[ERROR]   symbol:   method getCompany()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[83,30] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[84,28] cannot find symbol
+[ERROR]   symbol:   method getSalary()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[85,32] cannot find symbol
+[ERROR]   symbol:   method getExperience()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[86,36] cannot find symbol
+[ERROR]   symbol:   method getEmploymentType()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/JobServiceImpl.java:[87,31] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable job of type com.recruitment.backend.entity.Job
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[35,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[39,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[40,34] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[41,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[42,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[43,31] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[44,33] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.RegisterRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[51,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.recruitment.backend.dto.response.UserResponse
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[52,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[53,31] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[54,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[55,28] cannot find symbol
+[ERROR]   symbol:   method getPhone()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[56,30] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[57,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[58,30] cannot find symbol
+[ERROR]   symbol:   method isEnabled()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[65,69] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[75,45] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.recruitment.backend.dto.request.LoginRequest
+[ERROR] /C:/xampp/htdocs/AI-Recruitment-System/backend/src/main/java/com/recruitment/backend/service/impl/UserServiceImpl.java:[75,65] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.recruitment.backend.entity.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
